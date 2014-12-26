@@ -1,0 +1,109 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+
+.header {
+	padding: 20px 0 20px 0;
+	text-align: center;
+	font-family: 'Arvo', sans-serif;
+	font-weight: 400;
+}
+
+.nav {
+	font-family: 'Arvo', sans-serif;
+}
+
+.header .nav-pills li {
+	padding: 15px;
+}
+
+
+.header .nav-pills li a {
+	color: #d9192f;
+	border: 1px solid #d9192f;
+}
+
+
+.header .nav-pills li.active a,
+.header .nav-pills li.active a:hover,
+.header .nav-pills li a:hover {
+	background-color:rgba(216,25,47,1);
+  	box-shadow:0 2px 4px rgba(0,0,0,.5); 
+	color: #fff;
+}
+
+
+.main {
+	background-image: url('http://goo.gl/WG9xkq');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 500px;
+}
+
+.main h1 {
+	font-family: 'Arvo', sans-serif;
+	color: #fff;
+	font-size: 60px;
+}
+
+#featured-text {
+	margin-top: 100px;
+}
+
+.banner {
+	background-color: #36343f;
+	padding: 40px 0 60px 0;
+}
+
+.banner h2 {
+	color: #fff;
+	font-family: 'Arvo', sans-serif;
+}
+
+.banner a {
+	margin-top: 15px;
+	background-color: #872636;
+	border: 1px solid #872636;
+	color: #fff;
+	font-weight: 400;
+	padding: 10px 25px;
+}
+
+.supporting {
+	font-family: 'Arvo', sans-serif;
+	font-weight: 400;
+	padding: 30px 0 100px 0;
+}
+
+.supporting h3 {
+	color: #db3146;
+}
+
+.footer {
+	background-color: #eeeeee;
+	padding: 40px 0;
+}
+
+
+.footer a {
+	text-decoration: none;
+	color: #db3146;
+}
+
+.footer a:hover {
+	text-decoration: none;
+	color: #36343f;
+}
+
+
+
+
+
+
+
+
+
+
+
